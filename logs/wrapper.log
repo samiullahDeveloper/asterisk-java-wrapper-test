@@ -1,0 +1,931 @@
+WARN   | wrapper  | 2020/03/09 14:44:06 | The "wrapper.java.command" property was redefined on line #45 of configuration file: /home/samiullah/workspace/socialive_ivr_engine/conf/wrapper.conf
+WARN   | wrapper  | 2020/03/09 14:44:06 |   Old Value wrapper.java.command=java
+WARN   | wrapper  | 2020/03/09 14:44:06 |   New Value wrapper.java.command=%JAVA_HOME%/bin/java
+STATUS | wrapper  | 2020/03/09 14:44:06 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/03/09 14:44:06 | Java Service Wrapper Community Edition 64-bit 3.5.42
+STATUS | wrapper  | 2020/03/09 14:44:06 |   Copyright (C) 1999-2020 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2020/03/09 14:44:06 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2020/03/09 14:44:06 | 
+STATUS | wrapper  | 2020/03/09 14:44:07 | Launching a JVM...
+INFO   | jvm 1    | 2020/03/09 14:44:07 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2020/03/09 14:44:07 | WrapperStartStopApp Error: Unable to locate the class uk.co.planetbeyond.server.main.Stopper: java.lang.ClassNotFoundException: uk.co.planetbeyond.server.main.Stopper
+INFO   | jvm 1    | 2020/03/09 14:44:07 | 
+INFO   | jvm 1    | 2020/03/09 14:44:07 | WrapperStartStopApp Usage:
+INFO   | jvm 1    | 2020/03/09 14:44:07 |   java org.tanukisoftware.wrapper.WrapperStartStopApp {start_class{/start_method}} {start_arg_count} [start_arguments] {stop_class{/stop_method}} {stop_wait} {stop_arg_count} [stop_arguments]
+INFO   | jvm 1    | 2020/03/09 14:44:07 | 
+INFO   | jvm 1    | 2020/03/09 14:44:07 | Where:
+INFO   | jvm 1    | 2020/03/09 14:44:07 |   start_class:     The fully qualified class name to run to start the 
+INFO   | jvm 1    | 2020/03/09 14:44:07 |                    application.
+INFO   | jvm 1    | 2020/03/09 14:44:07 |   start_arg_count: The number of arguments to be passed to the start class's 
+INFO   | jvm 1    | 2020/03/09 14:44:07 |                    main method.
+INFO   | jvm 1    | 2020/03/09 14:44:07 |   start_arguments: The arguments that would normally be passed to the start 
+INFO   | jvm 1    | 2020/03/09 14:44:07 |                    class application.
+INFO   | jvm 1    | 2020/03/09 14:44:07 |   stop_class:      The fully qualified class name to run to stop the 
+INFO   | jvm 1    | 2020/03/09 14:44:07 |                    application.
+INFO   | jvm 1    | 2020/03/09 14:44:07 |   stop_wait:       When stopping, should the Wrapper wait for all threads to 
+INFO   | jvm 1    | 2020/03/09 14:44:07 |                    complete before exiting (true/false).
+INFO   | jvm 1    | 2020/03/09 14:44:07 |   stop_arg_count:  The number of arguments to be passed to the stop class's 
+INFO   | jvm 1    | 2020/03/09 14:44:07 |                    main method.
+INFO   | jvm 1    | 2020/03/09 14:44:07 |   stop_arguments:  The arguments that would normally be passed to the stop 
+INFO   | jvm 1    | 2020/03/09 14:44:07 |                    class application.
+STATUS | wrapper  | 2020/03/09 14:44:09 | <-- Wrapper Stopped
+WARN   | wrapper  | 2020/03/09 14:46:42 | The "wrapper.java.command" property was redefined on line #45 of configuration file: /home/samiullah/workspace/socialive_ivr_engine/conf/wrapper.conf
+WARN   | wrapper  | 2020/03/09 14:46:42 |   Old Value wrapper.java.command=java
+WARN   | wrapper  | 2020/03/09 14:46:42 |   New Value wrapper.java.command=%JAVA_HOME%/bin/java
+STATUS | wrapper  | 2020/03/09 14:46:42 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/03/09 14:46:42 | Java Service Wrapper Community Edition 64-bit 3.5.42
+STATUS | wrapper  | 2020/03/09 14:46:42 |   Copyright (C) 1999-2020 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2020/03/09 14:46:42 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2020/03/09 14:46:42 | 
+STATUS | wrapper  | 2020/03/09 14:46:42 | Launching a JVM...
+INFO   | jvm 1    | 2020/03/09 14:46:42 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2020/03/09 14:46:43 | WrapperStartStopApp Error: Unable to locate the class uk.co.planetbeyond.service.main.Stopper: java.lang.ClassNotFoundException: uk.co.planetbeyond.service.main.Stopper
+INFO   | jvm 1    | 2020/03/09 14:46:43 | 
+INFO   | jvm 1    | 2020/03/09 14:46:43 | WrapperStartStopApp Usage:
+INFO   | jvm 1    | 2020/03/09 14:46:43 |   java org.tanukisoftware.wrapper.WrapperStartStopApp {start_class{/start_method}} {start_arg_count} [start_arguments] {stop_class{/stop_method}} {stop_wait} {stop_arg_count} [stop_arguments]
+INFO   | jvm 1    | 2020/03/09 14:46:43 | 
+INFO   | jvm 1    | 2020/03/09 14:46:43 | Where:
+INFO   | jvm 1    | 2020/03/09 14:46:43 |   start_class:     The fully qualified class name to run to start the 
+INFO   | jvm 1    | 2020/03/09 14:46:43 |                    application.
+INFO   | jvm 1    | 2020/03/09 14:46:43 |   start_arg_count: The number of arguments to be passed to the start class's 
+INFO   | jvm 1    | 2020/03/09 14:46:43 |                    main method.
+INFO   | jvm 1    | 2020/03/09 14:46:43 |   start_arguments: The arguments that would normally be passed to the start 
+INFO   | jvm 1    | 2020/03/09 14:46:43 |                    class application.
+INFO   | jvm 1    | 2020/03/09 14:46:43 |   stop_class:      The fully qualified class name to run to stop the 
+INFO   | jvm 1    | 2020/03/09 14:46:43 |                    application.
+INFO   | jvm 1    | 2020/03/09 14:46:43 |   stop_wait:       When stopping, should the Wrapper wait for all threads to 
+INFO   | jvm 1    | 2020/03/09 14:46:43 |                    complete before exiting (true/false).
+INFO   | jvm 1    | 2020/03/09 14:46:43 |   stop_arg_count:  The number of arguments to be passed to the stop class's 
+INFO   | jvm 1    | 2020/03/09 14:46:43 |                    main method.
+INFO   | jvm 1    | 2020/03/09 14:46:43 |   stop_arguments:  The arguments that would normally be passed to the stop 
+INFO   | jvm 1    | 2020/03/09 14:46:43 |                    class application.
+STATUS | wrapper  | 2020/03/09 14:46:45 | <-- Wrapper Stopped
+WARN   | wrapper  | 2020/03/09 14:51:57 | The "wrapper.java.command" property was redefined on line #45 of configuration file: /home/samiullah/workspace/socialive_ivr_engine/conf/wrapper.conf
+WARN   | wrapper  | 2020/03/09 14:51:57 |   Old Value wrapper.java.command=java
+WARN   | wrapper  | 2020/03/09 14:51:57 |   New Value wrapper.java.command=%JAVA_HOME%/bin/java
+STATUS | wrapper  | 2020/03/09 14:51:57 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/03/09 14:51:57 | Java Service Wrapper Community Edition 64-bit 3.5.42
+STATUS | wrapper  | 2020/03/09 14:51:57 |   Copyright (C) 1999-2020 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2020/03/09 14:51:57 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2020/03/09 14:51:57 | 
+STATUS | wrapper  | 2020/03/09 14:51:57 | Launching a JVM...
+INFO   | jvm 1    | 2020/03/09 14:51:57 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2020/03/09 14:51:57 | WrapperStartStopApp Error: Unable to locate the class uk.co.planetbeyond.service.main.Stopper: java.lang.ClassNotFoundException: uk.co.planetbeyond.service.main.Stopper
+INFO   | jvm 1    | 2020/03/09 14:51:57 | 
+INFO   | jvm 1    | 2020/03/09 14:51:57 | WrapperStartStopApp Usage:
+INFO   | jvm 1    | 2020/03/09 14:51:57 |   java org.tanukisoftware.wrapper.WrapperStartStopApp {start_class{/start_method}} {start_arg_count} [start_arguments] {stop_class{/stop_method}} {stop_wait} {stop_arg_count} [stop_arguments]
+INFO   | jvm 1    | 2020/03/09 14:51:57 | 
+INFO   | jvm 1    | 2020/03/09 14:51:57 | Where:
+INFO   | jvm 1    | 2020/03/09 14:51:57 |   start_class:     The fully qualified class name to run to start the 
+INFO   | jvm 1    | 2020/03/09 14:51:57 |                    application.
+INFO   | jvm 1    | 2020/03/09 14:51:57 |   start_arg_count: The number of arguments to be passed to the start class's 
+INFO   | jvm 1    | 2020/03/09 14:51:57 |                    main method.
+INFO   | jvm 1    | 2020/03/09 14:51:57 |   start_arguments: The arguments that would normally be passed to the start 
+INFO   | jvm 1    | 2020/03/09 14:51:57 |                    class application.
+INFO   | jvm 1    | 2020/03/09 14:51:57 |   stop_class:      The fully qualified class name to run to stop the 
+INFO   | jvm 1    | 2020/03/09 14:51:57 |                    application.
+INFO   | jvm 1    | 2020/03/09 14:51:57 |   stop_wait:       When stopping, should the Wrapper wait for all threads to 
+INFO   | jvm 1    | 2020/03/09 14:51:57 |                    complete before exiting (true/false).
+INFO   | jvm 1    | 2020/03/09 14:51:57 |   stop_arg_count:  The number of arguments to be passed to the stop class's 
+INFO   | jvm 1    | 2020/03/09 14:51:57 |                    main method.
+INFO   | jvm 1    | 2020/03/09 14:51:57 |   stop_arguments:  The arguments that would normally be passed to the stop 
+INFO   | jvm 1    | 2020/03/09 14:51:57 |                    class application.
+STATUS | wrapper  | 2020/03/09 14:51:59 | <-- Wrapper Stopped
+WARN   | wrapper  | 2020/03/09 14:52:57 | The "wrapper.java.command" property was redefined on line #45 of configuration file: /home/samiullah/workspace/socialive_ivr_engine/conf/wrapper.conf
+WARN   | wrapper  | 2020/03/09 14:52:57 |   Old Value wrapper.java.command=java
+WARN   | wrapper  | 2020/03/09 14:52:57 |   New Value wrapper.java.command=%JAVA_HOME%/bin/java
+STATUS | wrapper  | 2020/03/09 14:52:57 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/03/09 14:52:57 | Java Service Wrapper Community Edition 64-bit 3.5.42
+STATUS | wrapper  | 2020/03/09 14:52:57 |   Copyright (C) 1999-2020 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2020/03/09 14:52:57 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2020/03/09 14:52:57 | 
+STATUS | wrapper  | 2020/03/09 14:52:57 | Launching a JVM...
+INFO   | jvm 1    | 2020/03/09 14:52:57 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2020/03/09 14:52:58 | WrapperStartStopApp Error: Not enough arguments.  Minimum 5 required.
+INFO   | jvm 1    | 2020/03/09 14:52:58 | 
+INFO   | jvm 1    | 2020/03/09 14:52:58 | WrapperStartStopApp Usage:
+INFO   | jvm 1    | 2020/03/09 14:52:58 |   java org.tanukisoftware.wrapper.WrapperStartStopApp {start_class{/start_method}} {start_arg_count} [start_arguments] {stop_class{/stop_method}} {stop_wait} {stop_arg_count} [stop_arguments]
+INFO   | jvm 1    | 2020/03/09 14:52:58 | 
+INFO   | jvm 1    | 2020/03/09 14:52:58 | Where:
+INFO   | jvm 1    | 2020/03/09 14:52:58 |   start_class:     The fully qualified class name to run to start the 
+INFO   | jvm 1    | 2020/03/09 14:52:58 |                    application.
+INFO   | jvm 1    | 2020/03/09 14:52:58 |   start_arg_count: The number of arguments to be passed to the start class's 
+INFO   | jvm 1    | 2020/03/09 14:52:58 |                    main method.
+INFO   | jvm 1    | 2020/03/09 14:52:58 |   start_arguments: The arguments that would normally be passed to the start 
+INFO   | jvm 1    | 2020/03/09 14:52:58 |                    class application.
+INFO   | jvm 1    | 2020/03/09 14:52:58 |   stop_class:      The fully qualified class name to run to stop the 
+INFO   | jvm 1    | 2020/03/09 14:52:58 |                    application.
+INFO   | jvm 1    | 2020/03/09 14:52:58 |   stop_wait:       When stopping, should the Wrapper wait for all threads to 
+INFO   | jvm 1    | 2020/03/09 14:52:58 |                    complete before exiting (true/false).
+INFO   | jvm 1    | 2020/03/09 14:52:58 |   stop_arg_count:  The number of arguments to be passed to the stop class's 
+INFO   | jvm 1    | 2020/03/09 14:52:58 |                    main method.
+INFO   | jvm 1    | 2020/03/09 14:52:58 |   stop_arguments:  The arguments that would normally be passed to the stop 
+INFO   | jvm 1    | 2020/03/09 14:52:58 |                    class application.
+STATUS | wrapper  | 2020/03/09 14:53:00 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/03/09 14:55:53 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/03/09 14:55:53 | Java Service Wrapper Community Edition 64-bit 3.5.42
+STATUS | wrapper  | 2020/03/09 14:55:53 |   Copyright (C) 1999-2020 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2020/03/09 14:55:53 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2020/03/09 14:55:53 | 
+STATUS | wrapper  | 2020/03/09 14:55:53 | Launching a JVM...
+INFO   | jvm 1    | 2020/03/09 14:55:53 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2020/03/09 14:55:54 | WrapperStartStopApp Error: Not enough arguments.  Minimum 5 required.
+INFO   | jvm 1    | 2020/03/09 14:55:54 | 
+INFO   | jvm 1    | 2020/03/09 14:55:54 | WrapperStartStopApp Usage:
+INFO   | jvm 1    | 2020/03/09 14:55:54 |   java org.tanukisoftware.wrapper.WrapperStartStopApp {start_class{/start_method}} {start_arg_count} [start_arguments] {stop_class{/stop_method}} {stop_wait} {stop_arg_count} [stop_arguments]
+INFO   | jvm 1    | 2020/03/09 14:55:54 | 
+INFO   | jvm 1    | 2020/03/09 14:55:54 | Where:
+INFO   | jvm 1    | 2020/03/09 14:55:54 |   start_class:     The fully qualified class name to run to start the 
+INFO   | jvm 1    | 2020/03/09 14:55:54 |                    application.
+INFO   | jvm 1    | 2020/03/09 14:55:54 |   start_arg_count: The number of arguments to be passed to the start class's 
+INFO   | jvm 1    | 2020/03/09 14:55:54 |                    main method.
+INFO   | jvm 1    | 2020/03/09 14:55:54 |   start_arguments: The arguments that would normally be passed to the start 
+INFO   | jvm 1    | 2020/03/09 14:55:54 |                    class application.
+INFO   | jvm 1    | 2020/03/09 14:55:54 |   stop_class:      The fully qualified class name to run to stop the 
+INFO   | jvm 1    | 2020/03/09 14:55:54 |                    application.
+INFO   | jvm 1    | 2020/03/09 14:55:54 |   stop_wait:       When stopping, should the Wrapper wait for all threads to 
+INFO   | jvm 1    | 2020/03/09 14:55:54 |                    complete before exiting (true/false).
+INFO   | jvm 1    | 2020/03/09 14:55:54 |   stop_arg_count:  The number of arguments to be passed to the stop class's 
+INFO   | jvm 1    | 2020/03/09 14:55:54 |                    main method.
+INFO   | jvm 1    | 2020/03/09 14:55:54 |   stop_arguments:  The arguments that would normally be passed to the stop 
+INFO   | jvm 1    | 2020/03/09 14:55:54 |                    class application.
+STATUS | wrapper  | 2020/03/09 14:55:56 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/03/09 14:56:29 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/03/09 14:56:29 | Java Service Wrapper Community Edition 64-bit 3.5.42
+STATUS | wrapper  | 2020/03/09 14:56:29 |   Copyright (C) 1999-2020 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2020/03/09 14:56:29 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2020/03/09 14:56:29 | 
+STATUS | wrapper  | 2020/03/09 14:56:29 | Launching a JVM...
+INFO   | jvm 1    | 2020/03/09 14:56:29 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2020/03/09 14:56:30 | WrapperSimpleApp Error: Unable to locate the class uk.co.planetbeyond.service.main.Main : java.lang.ClassNotFoundException: uk.co.planetbeyond.service.main.Main
+INFO   | jvm 1    | 2020/03/09 14:56:30 | 
+INFO   | jvm 1    | 2020/03/09 14:56:30 | WrapperSimpleApp Usage:
+INFO   | jvm 1    | 2020/03/09 14:56:30 |   java org.tanukisoftware.wrapper.WrapperSimpleApp {app_class{/app_method}} [app_arguments]
+INFO   | jvm 1    | 2020/03/09 14:56:30 | 
+INFO   | jvm 1    | 2020/03/09 14:56:30 | Where:
+INFO   | jvm 1    | 2020/03/09 14:56:30 |   app_class:      The fully qualified class name of the application to run.
+INFO   | jvm 1    | 2020/03/09 14:56:30 |   app_arguments:  The arguments that would normally be passed to the
+INFO   | jvm 1    | 2020/03/09 14:56:30 |                   application.
+STATUS | wrapper  | 2020/03/09 14:56:32 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/03/09 15:03:58 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/03/09 15:03:58 | Java Service Wrapper Community Edition 64-bit 3.5.42
+STATUS | wrapper  | 2020/03/09 15:03:58 |   Copyright (C) 1999-2020 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2020/03/09 15:03:58 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2020/03/09 15:03:58 | 
+STATUS | wrapper  | 2020/03/09 15:03:58 | Launching a JVM...
+INFO   | jvm 1    | 2020/03/09 15:03:58 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2020/03/09 15:03:58 | WrapperSimpleApp Error: Unable to locate the class uk.co.planetbeyond.service.main.Main : java.lang.ClassNotFoundException: uk.co.planetbeyond.service.main.Main
+INFO   | jvm 1    | 2020/03/09 15:03:58 | 
+INFO   | jvm 1    | 2020/03/09 15:03:58 | WrapperSimpleApp Usage:
+INFO   | jvm 1    | 2020/03/09 15:03:58 |   java org.tanukisoftware.wrapper.WrapperSimpleApp {app_class{/app_method}} [app_arguments]
+INFO   | jvm 1    | 2020/03/09 15:03:58 | 
+INFO   | jvm 1    | 2020/03/09 15:03:58 | Where:
+INFO   | jvm 1    | 2020/03/09 15:03:58 |   app_class:      The fully qualified class name of the application to run.
+INFO   | jvm 1    | 2020/03/09 15:03:58 |   app_arguments:  The arguments that would normally be passed to the
+INFO   | jvm 1    | 2020/03/09 15:03:58 |                   application.
+STATUS | wrapper  | 2020/03/09 15:04:00 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/03/09 15:04:46 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/03/09 15:04:46 | Java Service Wrapper Community Edition 64-bit 3.5.42
+STATUS | wrapper  | 2020/03/09 15:04:46 |   Copyright (C) 1999-2020 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2020/03/09 15:04:46 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2020/03/09 15:04:46 | 
+STATUS | wrapper  | 2020/03/09 15:04:46 | Launching a JVM...
+INFO   | jvm 1    | 2020/03/09 15:04:46 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2020/03/09 15:04:46 | 15:04:46,831 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+INFO   | jvm 1    | 2020/03/09 15:04:46 | 15:04:46,831 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+INFO   | jvm 1    | 2020/03/09 15:04:46 | 15:04:46,831 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/samiullah/workspace/socialive_ivr_engine/jar/logback.xml]
+INFO   | jvm 1    | 2020/03/09 15:04:46 | 15:04:46,952 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+INFO   | jvm 1    | 2020/03/09 15:04:46 | 15:04:46,958 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+INFO   | jvm 1    | 2020/03/09 15:04:47 | 15:04:47,033 |-INFO in ch.qos.logback.core.rolling.FixedWindowRollingPolicy@880ec60 - Will use zip compression
+INFO   | jvm 1    | 2020/03/09 15:04:47 | 15:04:47,046 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+INFO   | jvm 1    | 2020/03/09 15:04:47 | 15:04:47,073 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: /home/planetbeyond/temp/socialive_ivr_engine.log
+INFO   | jvm 1    | 2020/03/09 15:04:47 | 15:04:47,073 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [/home/planetbeyond/temp/socialive_ivr_engine.log]
+INFO   | jvm 1    | 2020/03/09 15:04:47 | 15:04:47,079 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+INFO   | jvm 1    | 2020/03/09 15:04:47 | 15:04:47,082 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [CONSOLE]
+INFO   | jvm 1    | 2020/03/09 15:04:47 | 15:04:47,089 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+INFO   | jvm 1    | 2020/03/09 15:04:47 | 15:04:47,095 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+INFO   | jvm 1    | 2020/03/09 15:04:47 | 15:04:47,096 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+INFO   | jvm 1    | 2020/03/09 15:04:47 | 15:04:47,099 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [CONSOLE] to Logger[ROOT]
+INFO   | jvm 1    | 2020/03/09 15:04:47 | 15:04:47,100 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+INFO   | jvm 1    | 2020/03/09 15:04:47 | 15:04:47,102 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@61a485d2 - Registering current configuration as safe fallback point
+INFO   | jvm 1    | 2020/03/09 15:04:47 | 2020-03-09 15:04:47,210 INFO [WrapperSimpleAppMain] EmailServer [EmailServer.java:84] Email sending thread has been started. Make sure that stopEmailServerThread() is called whenever the thread needs to be stopped.
+INFO   | jvm 1    | 2020/03/09 15:04:47 | 2020-03-09 15:04:47,226 DEBUG [WrapperSimpleAppMain] DefaultAgiServer [AbstractAgiServer.java:81] Using channelFactory org.asteriskjava.fastagi.internal.DefaultAgiChannelFactory
+INFO   | jvm 1    | 2020/03/09 15:04:47 | 2020-03-09 15:04:47,233 INFO [WrapperSimpleAppMain] DefaultAgiServer [DefaultAgiServer.java:315] Listening on *:7374.
+STATUS | wrapper  | 2020/03/09 15:05:06 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/03/09 15:05:07 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/03/09 15:05:47 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/03/09 15:05:47 | Java Service Wrapper Community Edition 64-bit 3.5.42
+STATUS | wrapper  | 2020/03/09 15:05:47 |   Copyright (C) 1999-2020 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2020/03/09 15:05:47 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2020/03/09 15:05:47 | 
+STATUS | wrapper  | 2020/03/09 15:05:47 | Launching a JVM...
+INFO   | jvm 1    | 2020/03/09 15:05:48 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2020/03/09 15:05:48 | 15:05:48,137 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+INFO   | jvm 1    | 2020/03/09 15:05:48 | 15:05:48,137 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+INFO   | jvm 1    | 2020/03/09 15:05:48 | 15:05:48,137 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/samiullah/workspace/socialive_ivr_engine/jar/logback.xml]
+INFO   | jvm 1    | 2020/03/09 15:05:48 | 15:05:48,242 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+INFO   | jvm 1    | 2020/03/09 15:05:48 | 15:05:48,246 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+INFO   | jvm 1    | 2020/03/09 15:05:48 | 15:05:48,288 |-INFO in ch.qos.logback.core.rolling.FixedWindowRollingPolicy@880ec60 - Will use zip compression
+INFO   | jvm 1    | 2020/03/09 15:05:48 | 15:05:48,298 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+INFO   | jvm 1    | 2020/03/09 15:05:48 | 15:05:48,318 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: /home/planetbeyond/temp/socialive_ivr_engine.log
+INFO   | jvm 1    | 2020/03/09 15:05:48 | 15:05:48,318 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [/home/planetbeyond/temp/socialive_ivr_engine.log]
+INFO   | jvm 1    | 2020/03/09 15:05:48 | 15:05:48,319 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+INFO   | jvm 1    | 2020/03/09 15:05:48 | 15:05:48,321 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [CONSOLE]
+INFO   | jvm 1    | 2020/03/09 15:05:48 | 15:05:48,324 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+INFO   | jvm 1    | 2020/03/09 15:05:48 | 15:05:48,331 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+INFO   | jvm 1    | 2020/03/09 15:05:48 | 15:05:48,331 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+INFO   | jvm 1    | 2020/03/09 15:05:48 | 15:05:48,336 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [CONSOLE] to Logger[ROOT]
+INFO   | jvm 1    | 2020/03/09 15:05:48 | 15:05:48,337 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+INFO   | jvm 1    | 2020/03/09 15:05:48 | 15:05:48,342 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@61a485d2 - Registering current configuration as safe fallback point
+INFO   | jvm 1    | 2020/03/09 15:05:48 | 2020-03-09 15:05:48,456 INFO [WrapperStartStopAppMain] EmailServer [EmailServer.java:84] Email sending thread has been started. Make sure that stopEmailServerThread() is called whenever the thread needs to be stopped.
+INFO   | jvm 1    | 2020/03/09 15:05:48 | 2020-03-09 15:05:48,461 DEBUG [WrapperStartStopAppMain] DefaultAgiServer [AbstractAgiServer.java:81] Using channelFactory org.asteriskjava.fastagi.internal.DefaultAgiChannelFactory
+INFO   | jvm 1    | 2020/03/09 15:05:48 | 2020-03-09 15:05:48,468 INFO [WrapperStartStopAppMain] DefaultAgiServer [DefaultAgiServer.java:315] Listening on *:7374.
+INFO   | jvm 1    | 2020/03/09 15:12:19 | 2020-03-09 15:12:19,128 DEBUG [WrapperStartStopAppMain] DefaultAgiServer [DefaultAgiServer.java:340] Received connection from /192.168.7.96
+INFO   | jvm 1    | 2020/03/09 15:12:19 | 2020-03-09 15:12:19,135 INFO [WrapperStartStopAppMain] DefaultAgiServer [AbstractAgiServer.java:244] Thread pool started.
+INFO   | jvm 1    | 2020/03/09 15:12:19 | 2020-03-09 15:12:19,148 INFO [AJ DaemonPool-1.1] ResourceBundleMappingStrategy [ResourceBundleMappingStrategy.java:183] Added mapping for 'hello2.agi' to class uk.co.planetbeyond.service.inbound.HelloAgiScript2
+INFO   | jvm 1    | 2020/03/09 15:12:19 | 2020-03-09 15:12:19,148 INFO [AJ DaemonPool-1.1] ResourceBundleMappingStrategy [ResourceBundleMappingStrategy.java:183] Added mapping for 'hello.agi' to class uk.co.planetbeyond.service.inbound.HelloAgiScript
+INFO   | jvm 1    | 2020/03/09 15:12:19 | 2020-03-09 15:12:19,150 INFO [AJ DaemonPool-1.1] ResourceBundleMappingStrategy [ResourceBundleMappingStrategy.java:183] Added mapping for 'save_user_call_duration.agi' to class uk.co.planetbeyond.service.activity.UserActivityHandler
+INFO   | jvm 1    | 2020/03/09 15:12:19 | 2020-03-09 15:12:19,152 INFO [AJ DaemonPool-1.1] ResourceBundleMappingStrategy [ResourceBundleMappingStrategy.java:183] Added mapping for 'ivrs-play.agi' to class uk.co.planetbeyond.service.inbound.IvrFiles
+INFO   | jvm 1    | 2020/03/09 15:12:19 | 2020-03-09 15:12:19,152 INFO [AJ DaemonPool-1.1] ResourceBundleMappingStrategy [ResourceBundleMappingStrategy.java:183] Added mapping for 'socialive.agi' to class uk.co.planetbeyond.service.inbound.SocialiveServiceHandler
+INFO   | jvm 1    | 2020/03/09 15:12:19 | 2020-03-09 15:12:19,153 DEBUG [AJ DaemonPool-1.1] FastAgiConnectionHandler [AgiConnectionHandler.java:175] Begin AgiScript uk.co.planetbeyond.service.inbound.SocialiveServiceHandler on AJ DaemonPool-1.1
+INFO   | jvm 1    | 2020/03/09 15:12:19 | 2020-03-09 15:12:19,306 DEBUG [AJ DaemonPool-1.1] BoneCPDataSource [BoneCPDataSource.java:148] JDBC URL = jdbc:mysql://localhost:3306/socialive_ivr?autoReconnect=true&autoReconnectForPools=true&useUnicode=true&characterEncoding=utf8, Username = root, partitions = 2, max (per partition) = 4, min (per partition) = 1, helper threads = 3, idle max age = 60 min, idle test period = 30 min
+INFO   | jvm 1    | 2020/03/09 15:12:27 | 2020-03-09 15:12:27,245 ERROR [AJ DaemonPool-1.1] FastAgiConnectionHandler [AgiConnectionHandler.java:183] AgiException running AgiScript uk.co.planetbeyond.service.inbound.SocialiveServiceHandler on AJ DaemonPool-1.1
+INFO   | jvm 1    | 2020/03/09 15:12:27 | org.asteriskjava.fastagi.AgiHangupException: Channel was hung up.
+INFO   | jvm 1    | 2020/03/09 15:12:27 | 	at org.asteriskjava.fastagi.internal.AgiChannelImpl.sendCommand(AgiChannelImpl.java:125) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:12:27 | 	at org.asteriskjava.fastagi.internal.AgiChannelImpl.getData(AgiChannelImpl.java:190) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:12:27 | 	at org.asteriskjava.fastagi.AgiOperations.getData(AgiOperations.java:154) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:12:27 | 	at uk.co.planetbeyond.service.inbound.SocialiveServiceHandler.playPromptAndGetDTMF(SocialiveServiceHandler.java:90) ~[socialive_ivr_test_engine.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:12:27 | 	at uk.co.planetbeyond.service.inbound.SocialiveServiceHandler.playMainMenuAndHandleResponse(SocialiveServiceHandler.java:177) ~[socialive_ivr_test_engine.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:12:27 | 	at uk.co.planetbeyond.service.inbound.SocialiveServiceHandler.service(SocialiveServiceHandler.java:39) ~[socialive_ivr_test_engine.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:12:27 | 	at org.asteriskjava.fastagi.internal.AgiConnectionHandler.runScript(AgiConnectionHandler.java:178) [asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:12:27 | 	at org.asteriskjava.fastagi.internal.AgiConnectionHandler.run(AgiConnectionHandler.java:149) [asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:12:27 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:12:27 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:12:27 | 	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:12:27 | 2020-03-09 15:12:27,251 DEBUG [AJ DaemonPool-1.1] FastAgiConnectionHandler [AgiConnectionHandler.java:191] End AgiScript uk.co.planetbeyond.service.inbound.SocialiveServiceHandler on AJ DaemonPool-1.1
+STATUS | wrapper  | 2020/03/09 15:14:53 | INT trapped.  Shutting down.
+INFO   | jvm 1    | 2020/03/09 15:14:53 | 2020-03-09 15:14:53,609 INFO [WrapperListener_stop_runner] CustomResourceBundle [CustomResourceBundle.java:87] PROPERTIES_UPDATE_INTERVAL_IN_SECS not found in http_client.properties. Going to use a default refresh interval of 300secs.
+INFO   | jvm 1    | 2020/03/09 15:14:53 | 2020-03-09 15:14:53,611 ERROR [WrapperListener_stop_runner] Stopper [Stopper.java:27] java.lang.NullPointerException
+INFO   | jvm 1    | 2020/03/09 15:14:53 | java.lang.NullPointerException: null
+INFO   | jvm 1    | 2020/03/09 15:14:53 | 	at uk.co.planetbeyond.util.CustomResourceBundle.<init>(CustomResourceBundle.java:115) ~[util-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:14:53 | 	at uk.co.planetbeyond.comm.constants.HttpClientConstants.<init>(HttpClientConstants.java:9) ~[communication-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:14:53 | 	at uk.co.planetbeyond.comm.constants.HttpClientConstants.get(HttpClientConstants.java:18) ~[communication-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:14:53 | 	at uk.co.planetbeyond.comm.httpclient.DefaultHttpClient.<init>(DefaultHttpClient.java:22) ~[communication-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:14:53 | 	at uk.co.planetbeyond.comm.httpclient.DefaultHttpClient.getSingletonInstance(DefaultHttpClient.java:34) ~[communication-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:14:53 | 	at uk.co.planetbeyond.comm.httpclient.DefaultHttpClient.getInstance(DefaultHttpClient.java:47) ~[communication-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:14:53 | 	at uk.co.planetbeyond.comm.main.Stopper.stop(Stopper.java:18) ~[communication-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:14:53 | 	at uk.co.planetbeyond.kannel.main.Stopper.stop(Stopper.java:12) ~[kannel-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:14:53 | 	at uk.co.planetbeyond.service.main.Stopper.stop(Stopper.java:21) [socialive_ivr_test_engine.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:14:53 | 	at uk.co.planetbeyond.service.main.Stopper.main(Stopper.java:14) [socialive_ivr_test_engine.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:14:53 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:14:53 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:14:53 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:14:53 | 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:14:53 | 	at org.tanukisoftware.wrapper.WrapperStartStopApp.stop(WrapperStartStopApp.java:665) [wrapper.jar:3.5.42]
+INFO   | jvm 1    | 2020/03/09 15:14:53 | 	at org.tanukisoftware.wrapper.WrapperManager$12.run(WrapperManager.java:4839) [wrapper.jar:3.5.42]
+STATUS | wrapper  | 2020/03/09 15:14:55 | INT trapped.  Forcing immediate shutdown.
+ERROR  | wrapper  | 2020/03/09 15:14:56 | JVM did not exit on request, termination requested.
+STATUS | wrapper  | 2020/03/09 15:14:56 | JVM received a signal SIGKILL (9).
+STATUS | wrapper  | 2020/03/09 15:14:56 | JVM process is gone.
+STATUS | wrapper  | 2020/03/09 15:14:56 | JVM exited after being requested to terminate.
+STATUS | wrapper  | 2020/03/09 15:14:56 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/03/09 15:14:58 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/03/09 15:14:58 | Java Service Wrapper Community Edition 64-bit 3.5.42
+STATUS | wrapper  | 2020/03/09 15:14:58 |   Copyright (C) 1999-2020 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2020/03/09 15:14:58 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2020/03/09 15:14:58 | 
+STATUS | wrapper  | 2020/03/09 15:14:58 | Launching a JVM...
+INFO   | jvm 1    | 2020/03/09 15:14:58 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2020/03/09 15:14:58 | 15:14:58,824 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+INFO   | jvm 1    | 2020/03/09 15:14:58 | 15:14:58,825 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+INFO   | jvm 1    | 2020/03/09 15:14:58 | 15:14:58,825 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/samiullah/workspace/socialive_ivr_engine/jar/logback.xml]
+INFO   | jvm 1    | 2020/03/09 15:14:58 | 15:14:58,921 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+INFO   | jvm 1    | 2020/03/09 15:14:58 | 15:14:58,926 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+INFO   | jvm 1    | 2020/03/09 15:14:58 | 15:14:58,970 |-INFO in ch.qos.logback.core.rolling.FixedWindowRollingPolicy@880ec60 - Will use zip compression
+INFO   | jvm 1    | 2020/03/09 15:14:58 | 15:14:58,981 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 15:14:59,011 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: /home/planetbeyond/temp/socialive_ivr_engine.log
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 15:14:59,012 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [/home/planetbeyond/temp/socialive_ivr_engine.log]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 15:14:59,015 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 15:14:59,018 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [CONSOLE]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 15:14:59,020 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 15:14:59,021 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 15:14:59,021 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 15:14:59,022 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [CONSOLE] to Logger[ROOT]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 15:14:59,022 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 15:14:59,023 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@61a485d2 - Registering current configuration as safe fallback point
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 2020-03-09 15:14:59,106 INFO [WrapperStartStopAppMain] EmailServer [EmailServer.java:84] Email sending thread has been started. Make sure that stopEmailServerThread() is called whenever the thread needs to be stopped.
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 2020-03-09 15:14:59,119 DEBUG [WrapperStartStopAppMain] DefaultAgiServer [AbstractAgiServer.java:81] Using channelFactory org.asteriskjava.fastagi.internal.DefaultAgiChannelFactory
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 2020-03-09 15:14:59,132 ERROR [WrapperStartStopAppMain] DefaultAgiServer [DefaultAgiServer.java:311] Unable start AgiServer: cannot to bind to *:7374.
+INFO   | jvm 1    | 2020/03/09 15:14:59 | java.net.BindException: Address already in use
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 	at java.net.PlainSocketImpl.socketBind(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 	at java.net.ServerSocket.bind(ServerSocket.java:375) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 	at java.net.ServerSocket.<init>(ServerSocket.java:237) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 	at org.asteriskjava.util.internal.ServerSocketFacadeImpl.<init>(ServerSocketFacadeImpl.java:42) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 	at org.asteriskjava.fastagi.DefaultAgiServer.createServerSocket(DefaultAgiServer.java:300) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 	at org.asteriskjava.fastagi.DefaultAgiServer.startup(DefaultAgiServer.java:307) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 	at uk.co.planetbeyond.service.main.Main.main(Main.java:40) [socialive_ivr_test_engine.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 	at org.tanukisoftware.wrapper.WrapperStartStopApp.run(WrapperStartStopApp.java:429) [wrapper.jar:3.5.42]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 2020-03-09 15:14:59,133 ERROR [WrapperStartStopAppMain] Main [Main.java:44] Address already in use
+INFO   | jvm 1    | 2020/03/09 15:14:59 | java.net.BindException: Address already in use
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 	at java.net.PlainSocketImpl.socketBind(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 	at java.net.ServerSocket.bind(ServerSocket.java:375) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 	at java.net.ServerSocket.<init>(ServerSocket.java:237) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 	at org.asteriskjava.util.internal.ServerSocketFacadeImpl.<init>(ServerSocketFacadeImpl.java:42) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 	at org.asteriskjava.fastagi.DefaultAgiServer.createServerSocket(DefaultAgiServer.java:300) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 	at org.asteriskjava.fastagi.DefaultAgiServer.startup(DefaultAgiServer.java:307) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 	at uk.co.planetbeyond.service.main.Main.main(Main.java:40) ~[socialive_ivr_test_engine.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 	at org.tanukisoftware.wrapper.WrapperStartStopApp.run(WrapperStartStopApp.java:429) [wrapper.jar:3.5.42]
+INFO   | jvm 1    | 2020/03/09 15:14:59 | 	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_91]
+STATUS | wrapper  | 2020/03/09 15:15:07 | INT trapped.  Shutting down.
+INFO   | jvm 1    | 2020/03/09 15:15:07 | 2020-03-09 15:15:07,035 INFO [WrapperListener_stop_runner] CustomResourceBundle [CustomResourceBundle.java:87] PROPERTIES_UPDATE_INTERVAL_IN_SECS not found in http_client.properties. Going to use a default refresh interval of 300secs.
+INFO   | jvm 1    | 2020/03/09 15:15:07 | 2020-03-09 15:15:07,037 ERROR [WrapperListener_stop_runner] Stopper [Stopper.java:27] java.lang.NullPointerException
+INFO   | jvm 1    | 2020/03/09 15:15:07 | java.lang.NullPointerException: null
+INFO   | jvm 1    | 2020/03/09 15:15:07 | 	at uk.co.planetbeyond.util.CustomResourceBundle.<init>(CustomResourceBundle.java:115) ~[util-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:15:07 | 	at uk.co.planetbeyond.comm.constants.HttpClientConstants.<init>(HttpClientConstants.java:9) ~[communication-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:15:07 | 	at uk.co.planetbeyond.comm.constants.HttpClientConstants.get(HttpClientConstants.java:18) ~[communication-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:15:07 | 	at uk.co.planetbeyond.comm.httpclient.DefaultHttpClient.<init>(DefaultHttpClient.java:22) ~[communication-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:15:07 | 	at uk.co.planetbeyond.comm.httpclient.DefaultHttpClient.getSingletonInstance(DefaultHttpClient.java:34) ~[communication-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:15:07 | 	at uk.co.planetbeyond.comm.httpclient.DefaultHttpClient.getInstance(DefaultHttpClient.java:47) ~[communication-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:15:07 | 	at uk.co.planetbeyond.comm.main.Stopper.stop(Stopper.java:18) ~[communication-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:15:07 | 	at uk.co.planetbeyond.kannel.main.Stopper.stop(Stopper.java:12) ~[kannel-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:15:07 | 	at uk.co.planetbeyond.service.main.Stopper.stop(Stopper.java:21) [socialive_ivr_test_engine.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:15:07 | 	at uk.co.planetbeyond.service.main.Stopper.main(Stopper.java:14) [socialive_ivr_test_engine.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:15:07 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:15:07 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:15:07 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:15:07 | 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:15:07 | 	at org.tanukisoftware.wrapper.WrapperStartStopApp.stop(WrapperStartStopApp.java:665) [wrapper.jar:3.5.42]
+INFO   | jvm 1    | 2020/03/09 15:15:07 | 	at org.tanukisoftware.wrapper.WrapperManager$12.run(WrapperManager.java:4839) [wrapper.jar:3.5.42]
+STATUS | wrapper  | 2020/03/09 15:15:11 | INT trapped.  Forcing immediate shutdown.
+ERROR  | wrapper  | 2020/03/09 15:15:11 | JVM did not exit on request, termination requested.
+STATUS | wrapper  | 2020/03/09 15:15:11 | JVM received a signal SIGKILL (9).
+STATUS | wrapper  | 2020/03/09 15:15:11 | JVM process is gone.
+STATUS | wrapper  | 2020/03/09 15:15:11 | JVM exited after being requested to terminate.
+STATUS | wrapper  | 2020/03/09 15:15:11 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/03/09 15:16:46 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/03/09 15:16:46 | Java Service Wrapper Community Edition 64-bit 3.5.42
+STATUS | wrapper  | 2020/03/09 15:16:46 |   Copyright (C) 1999-2020 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2020/03/09 15:16:46 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2020/03/09 15:16:46 | 
+STATUS | wrapper  | 2020/03/09 15:16:47 | Launching a JVM...
+INFO   | jvm 1    | 2020/03/09 15:16:47 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 15:16:47,412 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 15:16:47,412 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 15:16:47,412 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/samiullah/workspace/socialive_ivr_engine/jar/logback.xml]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 15:16:47,514 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 15:16:47,519 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 15:16:47,565 |-INFO in ch.qos.logback.core.rolling.FixedWindowRollingPolicy@880ec60 - Will use zip compression
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 15:16:47,576 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 15:16:47,609 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: /home/planetbeyond/temp/socialive_ivr_engine.log
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 15:16:47,610 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [/home/planetbeyond/temp/socialive_ivr_engine.log]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 15:16:47,611 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 15:16:47,613 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [CONSOLE]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 15:16:47,614 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 15:16:47,616 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 15:16:47,616 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 15:16:47,617 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [CONSOLE] to Logger[ROOT]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 15:16:47,617 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 15:16:47,619 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@61a485d2 - Registering current configuration as safe fallback point
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 2020-03-09 15:16:47,686 INFO [WrapperStartStopAppMain] EmailServer [EmailServer.java:84] Email sending thread has been started. Make sure that stopEmailServerThread() is called whenever the thread needs to be stopped.
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 2020-03-09 15:16:47,699 DEBUG [WrapperStartStopAppMain] DefaultAgiServer [AbstractAgiServer.java:81] Using channelFactory org.asteriskjava.fastagi.internal.DefaultAgiChannelFactory
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 2020-03-09 15:16:47,708 ERROR [WrapperStartStopAppMain] DefaultAgiServer [DefaultAgiServer.java:311] Unable start AgiServer: cannot to bind to *:7374.
+INFO   | jvm 1    | 2020/03/09 15:16:47 | java.net.BindException: Address already in use
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 	at java.net.PlainSocketImpl.socketBind(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 	at java.net.ServerSocket.bind(ServerSocket.java:375) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 	at java.net.ServerSocket.<init>(ServerSocket.java:237) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 	at org.asteriskjava.util.internal.ServerSocketFacadeImpl.<init>(ServerSocketFacadeImpl.java:42) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 	at org.asteriskjava.fastagi.DefaultAgiServer.createServerSocket(DefaultAgiServer.java:300) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 	at org.asteriskjava.fastagi.DefaultAgiServer.startup(DefaultAgiServer.java:307) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 	at uk.co.planetbeyond.service.main.Main.main(Main.java:40) [socialive_ivr_test_engine.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 	at org.tanukisoftware.wrapper.WrapperStartStopApp.run(WrapperStartStopApp.java:429) [wrapper.jar:3.5.42]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 2020-03-09 15:16:47,709 ERROR [WrapperStartStopAppMain] Main [Main.java:44] Address already in use
+INFO   | jvm 1    | 2020/03/09 15:16:47 | java.net.BindException: Address already in use
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 	at java.net.PlainSocketImpl.socketBind(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 	at java.net.ServerSocket.bind(ServerSocket.java:375) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 	at java.net.ServerSocket.<init>(ServerSocket.java:237) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 	at org.asteriskjava.util.internal.ServerSocketFacadeImpl.<init>(ServerSocketFacadeImpl.java:42) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 	at org.asteriskjava.fastagi.DefaultAgiServer.createServerSocket(DefaultAgiServer.java:300) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 	at org.asteriskjava.fastagi.DefaultAgiServer.startup(DefaultAgiServer.java:307) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 	at uk.co.planetbeyond.service.main.Main.main(Main.java:40) ~[socialive_ivr_test_engine.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 	at org.tanukisoftware.wrapper.WrapperStartStopApp.run(WrapperStartStopApp.java:429) [wrapper.jar:3.5.42]
+INFO   | jvm 1    | 2020/03/09 15:16:47 | 	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_91]
+STATUS | wrapper  | 2020/03/09 15:16:55 | INT trapped.  Shutting down.
+INFO   | jvm 1    | 2020/03/09 15:16:55 | 2020-03-09 15:16:55,494 INFO [WrapperListener_stop_runner] CustomResourceBundle [CustomResourceBundle.java:87] PROPERTIES_UPDATE_INTERVAL_IN_SECS not found in http_client.properties. Going to use a default refresh interval of 300secs.
+INFO   | jvm 1    | 2020/03/09 15:16:55 | 2020-03-09 15:16:55,496 ERROR [WrapperListener_stop_runner] Stopper [Stopper.java:27] java.lang.NullPointerException
+INFO   | jvm 1    | 2020/03/09 15:16:55 | java.lang.NullPointerException: null
+INFO   | jvm 1    | 2020/03/09 15:16:55 | 	at uk.co.planetbeyond.util.CustomResourceBundle.<init>(CustomResourceBundle.java:115) ~[util-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:16:55 | 	at uk.co.planetbeyond.comm.constants.HttpClientConstants.<init>(HttpClientConstants.java:9) ~[communication-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:16:55 | 	at uk.co.planetbeyond.comm.constants.HttpClientConstants.get(HttpClientConstants.java:18) ~[communication-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:16:55 | 	at uk.co.planetbeyond.comm.httpclient.DefaultHttpClient.<init>(DefaultHttpClient.java:22) ~[communication-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:16:55 | 	at uk.co.planetbeyond.comm.httpclient.DefaultHttpClient.getSingletonInstance(DefaultHttpClient.java:34) ~[communication-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:16:55 | 	at uk.co.planetbeyond.comm.httpclient.DefaultHttpClient.getInstance(DefaultHttpClient.java:47) ~[communication-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:16:55 | 	at uk.co.planetbeyond.comm.main.Stopper.stop(Stopper.java:18) ~[communication-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:16:55 | 	at uk.co.planetbeyond.kannel.main.Stopper.stop(Stopper.java:12) ~[kannel-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:16:55 | 	at uk.co.planetbeyond.service.main.Stopper.stop(Stopper.java:21) [socialive_ivr_test_engine.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:16:55 | 	at uk.co.planetbeyond.service.main.Stopper.main(Stopper.java:14) [socialive_ivr_test_engine.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:16:55 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:16:55 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:16:55 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:16:55 | 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:16:55 | 	at org.tanukisoftware.wrapper.WrapperStartStopApp.stop(WrapperStartStopApp.java:665) [wrapper.jar:3.5.42]
+INFO   | jvm 1    | 2020/03/09 15:16:55 | 	at org.tanukisoftware.wrapper.WrapperManager$12.run(WrapperManager.java:4839) [wrapper.jar:3.5.42]
+STATUS | wrapper  | 2020/03/09 15:16:56 | INT trapped.  Forcing immediate shutdown.
+ERROR  | wrapper  | 2020/03/09 15:16:56 | JVM did not exit on request, termination requested.
+STATUS | wrapper  | 2020/03/09 15:16:56 | JVM received a signal SIGKILL (9).
+STATUS | wrapper  | 2020/03/09 15:16:56 | JVM process is gone.
+STATUS | wrapper  | 2020/03/09 15:16:56 | JVM exited after being requested to terminate.
+STATUS | wrapper  | 2020/03/09 15:16:56 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/03/09 15:18:22 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/03/09 15:18:22 | Java Service Wrapper Community Edition 64-bit 3.5.42
+STATUS | wrapper  | 2020/03/09 15:18:22 |   Copyright (C) 1999-2020 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2020/03/09 15:18:22 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2020/03/09 15:18:22 | 
+STATUS | wrapper  | 2020/03/09 15:18:22 | Launching a JVM...
+INFO   | jvm 1    | 2020/03/09 15:18:22 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 15:18:22,949 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 15:18:22,949 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 15:18:22,949 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/samiullah/workspace/socialive_ivr_engine/jar/logback.xml]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 15:18:23,044 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 15:18:23,049 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 15:18:23,108 |-INFO in ch.qos.logback.core.rolling.FixedWindowRollingPolicy@880ec60 - Will use zip compression
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 15:18:23,122 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 15:18:23,143 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: /home/planetbeyond/temp/socialive_ivr_engine.log
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 15:18:23,144 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [/home/planetbeyond/temp/socialive_ivr_engine.log]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 15:18:23,145 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 15:18:23,148 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [CONSOLE]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 15:18:23,150 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 15:18:23,151 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 15:18:23,151 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 15:18:23,152 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [CONSOLE] to Logger[ROOT]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 15:18:23,152 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 15:18:23,153 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@61a485d2 - Registering current configuration as safe fallback point
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 2020-03-09 15:18:23,268 INFO [WrapperStartStopAppMain] EmailServer [EmailServer.java:84] Email sending thread has been started. Make sure that stopEmailServerThread() is called whenever the thread needs to be stopped.
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 2020-03-09 15:18:23,273 DEBUG [WrapperStartStopAppMain] DefaultAgiServer [AbstractAgiServer.java:81] Using channelFactory org.asteriskjava.fastagi.internal.DefaultAgiChannelFactory
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 2020-03-09 15:18:23,298 ERROR [WrapperStartStopAppMain] DefaultAgiServer [DefaultAgiServer.java:311] Unable start AgiServer: cannot to bind to *:7374.
+INFO   | jvm 1    | 2020/03/09 15:18:23 | java.net.BindException: Address already in use
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 	at java.net.PlainSocketImpl.socketBind(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 	at java.net.ServerSocket.bind(ServerSocket.java:375) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 	at java.net.ServerSocket.<init>(ServerSocket.java:237) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 	at org.asteriskjava.util.internal.ServerSocketFacadeImpl.<init>(ServerSocketFacadeImpl.java:42) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 	at org.asteriskjava.fastagi.DefaultAgiServer.createServerSocket(DefaultAgiServer.java:300) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 	at org.asteriskjava.fastagi.DefaultAgiServer.startup(DefaultAgiServer.java:307) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 	at uk.co.planetbeyond.service.main.Main.main(Main.java:40) [socialive_ivr_test_engine.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 	at org.tanukisoftware.wrapper.WrapperStartStopApp.run(WrapperStartStopApp.java:429) [wrapper.jar:3.5.42]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 2020-03-09 15:18:23,298 ERROR [WrapperStartStopAppMain] Main [Main.java:44] Address already in use
+INFO   | jvm 1    | 2020/03/09 15:18:23 | java.net.BindException: Address already in use
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 	at java.net.PlainSocketImpl.socketBind(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 	at java.net.ServerSocket.bind(ServerSocket.java:375) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 	at java.net.ServerSocket.<init>(ServerSocket.java:237) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 	at org.asteriskjava.util.internal.ServerSocketFacadeImpl.<init>(ServerSocketFacadeImpl.java:42) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 	at org.asteriskjava.fastagi.DefaultAgiServer.createServerSocket(DefaultAgiServer.java:300) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 	at org.asteriskjava.fastagi.DefaultAgiServer.startup(DefaultAgiServer.java:307) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 	at uk.co.planetbeyond.service.main.Main.main(Main.java:40) ~[socialive_ivr_test_engine.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 	at org.tanukisoftware.wrapper.WrapperStartStopApp.run(WrapperStartStopApp.java:429) [wrapper.jar:3.5.42]
+INFO   | jvm 1    | 2020/03/09 15:18:23 | 	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_91]
+STATUS | wrapper  | 2020/03/09 15:22:45 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/03/09 15:22:45 | Java Service Wrapper Community Edition 64-bit 3.5.42
+STATUS | wrapper  | 2020/03/09 15:22:45 |   Copyright (C) 1999-2020 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2020/03/09 15:22:45 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2020/03/09 15:22:45 | 
+INFO   | wrapperp | 2020/03/09 15:22:45 | port 7374 already in use, using port 32000 instead.
+STATUS | wrapper  | 2020/03/09 15:22:46 | Launching a JVM...
+INFO   | jvm 1    | 2020/03/09 15:22:46 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 15:22:46,321 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 15:22:46,321 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 15:22:46,322 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/samiullah/workspace/socialive_ivr_engine/jar/logback.xml]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 15:22:46,432 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 15:22:46,439 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 15:22:46,496 |-INFO in ch.qos.logback.core.rolling.FixedWindowRollingPolicy@880ec60 - Will use zip compression
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 15:22:46,531 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 15:22:46,563 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: /home/planetbeyond/temp/socialive_ivr_engine.log
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 15:22:46,564 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [/home/planetbeyond/temp/socialive_ivr_engine.log]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 15:22:46,564 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 15:22:46,566 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [CONSOLE]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 15:22:46,568 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 15:22:46,569 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 15:22:46,569 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 15:22:46,570 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [CONSOLE] to Logger[ROOT]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 15:22:46,571 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 15:22:46,572 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@61a485d2 - Registering current configuration as safe fallback point
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 2020-03-09 15:22:46,702 INFO [WrapperStartStopAppMain] EmailServer [EmailServer.java:84] Email sending thread has been started. Make sure that stopEmailServerThread() is called whenever the thread needs to be stopped.
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 2020-03-09 15:22:46,709 DEBUG [WrapperStartStopAppMain] DefaultAgiServer [AbstractAgiServer.java:81] Using channelFactory org.asteriskjava.fastagi.internal.DefaultAgiChannelFactory
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 2020-03-09 15:22:46,716 ERROR [WrapperStartStopAppMain] DefaultAgiServer [DefaultAgiServer.java:311] Unable start AgiServer: cannot to bind to *:7374.
+INFO   | jvm 1    | 2020/03/09 15:22:46 | java.net.BindException: Address already in use
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 	at java.net.PlainSocketImpl.socketBind(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 	at java.net.ServerSocket.bind(ServerSocket.java:375) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 	at java.net.ServerSocket.<init>(ServerSocket.java:237) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 	at org.asteriskjava.util.internal.ServerSocketFacadeImpl.<init>(ServerSocketFacadeImpl.java:42) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 	at org.asteriskjava.fastagi.DefaultAgiServer.createServerSocket(DefaultAgiServer.java:300) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 	at org.asteriskjava.fastagi.DefaultAgiServer.startup(DefaultAgiServer.java:307) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 	at uk.co.planetbeyond.service.main.Main.main(Main.java:40) [socialive_ivr_test_engine.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 	at org.tanukisoftware.wrapper.WrapperStartStopApp.run(WrapperStartStopApp.java:429) [wrapper.jar:3.5.42]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 2020-03-09 15:22:46,717 ERROR [WrapperStartStopAppMain] Main [Main.java:44] Address already in use
+INFO   | jvm 1    | 2020/03/09 15:22:46 | java.net.BindException: Address already in use
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 	at java.net.PlainSocketImpl.socketBind(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 	at java.net.ServerSocket.bind(ServerSocket.java:375) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 	at java.net.ServerSocket.<init>(ServerSocket.java:237) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 	at org.asteriskjava.util.internal.ServerSocketFacadeImpl.<init>(ServerSocketFacadeImpl.java:42) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 	at org.asteriskjava.fastagi.DefaultAgiServer.createServerSocket(DefaultAgiServer.java:300) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 	at org.asteriskjava.fastagi.DefaultAgiServer.startup(DefaultAgiServer.java:307) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 	at uk.co.planetbeyond.service.main.Main.main(Main.java:40) ~[socialive_ivr_test_engine.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 	at org.tanukisoftware.wrapper.WrapperStartStopApp.run(WrapperStartStopApp.java:429) [wrapper.jar:3.5.42]
+INFO   | jvm 1    | 2020/03/09 15:22:46 | 	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_91]
+STATUS | wrapper  | 2020/03/09 15:23:37 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/03/09 15:23:37 | Java Service Wrapper Community Edition 64-bit 3.5.42
+STATUS | wrapper  | 2020/03/09 15:23:37 |   Copyright (C) 1999-2020 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2020/03/09 15:23:37 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2020/03/09 15:23:37 | 
+INFO   | wrapperp | 2020/03/09 15:23:37 | port 7374 already in use, using port 32002 instead.
+STATUS | wrapper  | 2020/03/09 15:23:37 | Launching a JVM...
+INFO   | jvm 1    | 2020/03/09 15:23:37 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 15:23:37,871 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 15:23:37,871 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 15:23:37,872 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/samiullah/workspace/socialive_ivr_engine/jar/logback.xml]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 15:23:37,986 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 15:23:37,991 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 15:23:38,046 |-INFO in ch.qos.logback.core.rolling.FixedWindowRollingPolicy@880ec60 - Will use zip compression
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 15:23:38,059 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 15:23:38,082 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: /home/planetbeyond/temp/socialive_ivr_engine.log
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 15:23:38,082 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [/home/planetbeyond/temp/socialive_ivr_engine.log]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 15:23:38,083 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 15:23:38,085 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [CONSOLE]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 15:23:38,087 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 15:23:38,089 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 15:23:38,089 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 15:23:38,090 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [CONSOLE] to Logger[ROOT]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 15:23:38,090 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 15:23:38,091 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@61a485d2 - Registering current configuration as safe fallback point
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 2020-03-09 15:23:38,206 INFO [WrapperStartStopAppMain] EmailServer [EmailServer.java:84] Email sending thread has been started. Make sure that stopEmailServerThread() is called whenever the thread needs to be stopped.
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 2020-03-09 15:23:38,212 DEBUG [WrapperStartStopAppMain] DefaultAgiServer [AbstractAgiServer.java:81] Using channelFactory org.asteriskjava.fastagi.internal.DefaultAgiChannelFactory
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 2020-03-09 15:23:38,223 ERROR [WrapperStartStopAppMain] DefaultAgiServer [DefaultAgiServer.java:311] Unable start AgiServer: cannot to bind to *:7374.
+INFO   | jvm 1    | 2020/03/09 15:23:38 | java.net.BindException: Address already in use
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 	at java.net.PlainSocketImpl.socketBind(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 	at java.net.ServerSocket.bind(ServerSocket.java:375) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 	at java.net.ServerSocket.<init>(ServerSocket.java:237) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 	at org.asteriskjava.util.internal.ServerSocketFacadeImpl.<init>(ServerSocketFacadeImpl.java:42) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 	at org.asteriskjava.fastagi.DefaultAgiServer.createServerSocket(DefaultAgiServer.java:300) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 	at org.asteriskjava.fastagi.DefaultAgiServer.startup(DefaultAgiServer.java:307) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 	at uk.co.planetbeyond.service.main.Main.main(Main.java:40) [socialive_ivr_test_engine.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 	at org.tanukisoftware.wrapper.WrapperStartStopApp.run(WrapperStartStopApp.java:429) [wrapper.jar:3.5.42]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 2020-03-09 15:23:38,224 ERROR [WrapperStartStopAppMain] Main [Main.java:44] Address already in use
+INFO   | jvm 1    | 2020/03/09 15:23:38 | java.net.BindException: Address already in use
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 	at java.net.PlainSocketImpl.socketBind(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 	at java.net.ServerSocket.bind(ServerSocket.java:375) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 	at java.net.ServerSocket.<init>(ServerSocket.java:237) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 	at org.asteriskjava.util.internal.ServerSocketFacadeImpl.<init>(ServerSocketFacadeImpl.java:42) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 	at org.asteriskjava.fastagi.DefaultAgiServer.createServerSocket(DefaultAgiServer.java:300) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 	at org.asteriskjava.fastagi.DefaultAgiServer.startup(DefaultAgiServer.java:307) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 	at uk.co.planetbeyond.service.main.Main.main(Main.java:40) ~[socialive_ivr_test_engine.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 	at org.tanukisoftware.wrapper.WrapperStartStopApp.run(WrapperStartStopApp.java:429) [wrapper.jar:3.5.42]
+INFO   | jvm 1    | 2020/03/09 15:23:38 | 	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_91]
+STATUS | wrapper  | 2020/03/09 15:24:31 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/03/09 15:24:31 | Java Service Wrapper Community Edition 64-bit 3.5.42
+STATUS | wrapper  | 2020/03/09 15:24:31 |   Copyright (C) 1999-2020 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2020/03/09 15:24:31 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2020/03/09 15:24:31 | 
+STATUS | wrapper  | 2020/03/09 15:24:32 | Launching a JVM...
+INFO   | jvm 1    | 2020/03/09 15:24:32 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 15:24:32,450 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 15:24:32,450 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 15:24:32,450 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/samiullah/workspace/socialive_ivr_engine/jar/logback.xml]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 15:24:32,558 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 15:24:32,564 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 15:24:32,628 |-INFO in ch.qos.logback.core.rolling.FixedWindowRollingPolicy@880ec60 - Will use zip compression
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 15:24:32,646 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 15:24:32,670 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: /home/planetbeyond/temp/socialive_ivr_engine.log
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 15:24:32,671 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [/home/planetbeyond/temp/socialive_ivr_engine.log]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 15:24:32,671 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 15:24:32,673 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [CONSOLE]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 15:24:32,675 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 15:24:32,681 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 15:24:32,681 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 15:24:32,681 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [CONSOLE] to Logger[ROOT]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 15:24:32,681 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 15:24:32,682 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@61a485d2 - Registering current configuration as safe fallback point
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 2020-03-09 15:24:32,794 INFO [WrapperStartStopAppMain] EmailServer [EmailServer.java:84] Email sending thread has been started. Make sure that stopEmailServerThread() is called whenever the thread needs to be stopped.
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 2020-03-09 15:24:32,800 DEBUG [WrapperStartStopAppMain] DefaultAgiServer [AbstractAgiServer.java:81] Using channelFactory org.asteriskjava.fastagi.internal.DefaultAgiChannelFactory
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 2020-03-09 15:24:32,811 ERROR [WrapperStartStopAppMain] DefaultAgiServer [DefaultAgiServer.java:311] Unable start AgiServer: cannot to bind to *:7374.
+INFO   | jvm 1    | 2020/03/09 15:24:32 | java.net.BindException: Address already in use
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 	at java.net.PlainSocketImpl.socketBind(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 	at java.net.ServerSocket.bind(ServerSocket.java:375) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 	at java.net.ServerSocket.<init>(ServerSocket.java:237) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 	at org.asteriskjava.util.internal.ServerSocketFacadeImpl.<init>(ServerSocketFacadeImpl.java:42) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 	at org.asteriskjava.fastagi.DefaultAgiServer.createServerSocket(DefaultAgiServer.java:300) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 	at org.asteriskjava.fastagi.DefaultAgiServer.startup(DefaultAgiServer.java:307) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 	at uk.co.planetbeyond.service.main.Main.main(Main.java:40) [socialive_ivr_test_engine.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 	at org.tanukisoftware.wrapper.WrapperStartStopApp.run(WrapperStartStopApp.java:429) [wrapper.jar:3.5.42]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 2020-03-09 15:24:32,812 ERROR [WrapperStartStopAppMain] Main [Main.java:44] Address already in use
+INFO   | jvm 1    | 2020/03/09 15:24:32 | java.net.BindException: Address already in use
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 	at java.net.PlainSocketImpl.socketBind(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 	at java.net.ServerSocket.bind(ServerSocket.java:375) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 	at java.net.ServerSocket.<init>(ServerSocket.java:237) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 	at org.asteriskjava.util.internal.ServerSocketFacadeImpl.<init>(ServerSocketFacadeImpl.java:42) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 	at org.asteriskjava.fastagi.DefaultAgiServer.createServerSocket(DefaultAgiServer.java:300) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 	at org.asteriskjava.fastagi.DefaultAgiServer.startup(DefaultAgiServer.java:307) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 	at uk.co.planetbeyond.service.main.Main.main(Main.java:40) ~[socialive_ivr_test_engine.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 	at org.tanukisoftware.wrapper.WrapperStartStopApp.run(WrapperStartStopApp.java:429) [wrapper.jar:3.5.42]
+INFO   | jvm 1    | 2020/03/09 15:24:32 | 	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_91]
+STATUS | wrapper  | 2020/03/09 15:25:37 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/03/09 15:25:37 | Java Service Wrapper Community Edition 64-bit 3.5.42
+STATUS | wrapper  | 2020/03/09 15:25:37 |   Copyright (C) 1999-2020 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2020/03/09 15:25:37 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2020/03/09 15:25:37 | 
+STATUS | wrapper  | 2020/03/09 15:25:37 | Launching a JVM...
+INFO   | jvm 1    | 2020/03/09 15:25:37 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 15:25:38,080 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 15:25:38,080 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 15:25:38,080 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/samiullah/workspace/socialive_ivr_engine/jar/logback.xml]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 15:25:38,192 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 15:25:38,196 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 15:25:38,240 |-INFO in ch.qos.logback.core.rolling.FixedWindowRollingPolicy@880ec60 - Will use zip compression
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 15:25:38,255 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 15:25:38,281 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: /home/planetbeyond/temp/socialive_ivr_engine.log
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 15:25:38,281 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [/home/planetbeyond/temp/socialive_ivr_engine.log]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 15:25:38,282 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 15:25:38,284 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [CONSOLE]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 15:25:38,286 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 15:25:38,287 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 15:25:38,287 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 15:25:38,288 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [CONSOLE] to Logger[ROOT]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 15:25:38,288 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 15:25:38,289 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@61a485d2 - Registering current configuration as safe fallback point
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 2020-03-09 15:25:38,406 INFO [WrapperStartStopAppMain] EmailServer [EmailServer.java:84] Email sending thread has been started. Make sure that stopEmailServerThread() is called whenever the thread needs to be stopped.
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 2020-03-09 15:25:38,414 DEBUG [WrapperStartStopAppMain] DefaultAgiServer [AbstractAgiServer.java:81] Using channelFactory org.asteriskjava.fastagi.internal.DefaultAgiChannelFactory
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 2020-03-09 15:25:38,423 ERROR [WrapperStartStopAppMain] DefaultAgiServer [DefaultAgiServer.java:311] Unable start AgiServer: cannot to bind to *:7374.
+INFO   | jvm 1    | 2020/03/09 15:25:38 | java.net.BindException: Address already in use
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 	at java.net.PlainSocketImpl.socketBind(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 	at java.net.ServerSocket.bind(ServerSocket.java:375) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 	at java.net.ServerSocket.<init>(ServerSocket.java:237) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 	at org.asteriskjava.util.internal.ServerSocketFacadeImpl.<init>(ServerSocketFacadeImpl.java:42) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 	at org.asteriskjava.fastagi.DefaultAgiServer.createServerSocket(DefaultAgiServer.java:300) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 	at org.asteriskjava.fastagi.DefaultAgiServer.startup(DefaultAgiServer.java:307) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 	at uk.co.planetbeyond.service.main.Main.main(Main.java:40) [socialive_ivr_test_engine.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 	at org.tanukisoftware.wrapper.WrapperStartStopApp.run(WrapperStartStopApp.java:429) [wrapper.jar:3.5.42]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 2020-03-09 15:25:38,424 ERROR [WrapperStartStopAppMain] Main [Main.java:44] Address already in use
+INFO   | jvm 1    | 2020/03/09 15:25:38 | java.net.BindException: Address already in use
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 	at java.net.PlainSocketImpl.socketBind(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 	at java.net.ServerSocket.bind(ServerSocket.java:375) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 	at java.net.ServerSocket.<init>(ServerSocket.java:237) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 	at org.asteriskjava.util.internal.ServerSocketFacadeImpl.<init>(ServerSocketFacadeImpl.java:42) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 	at org.asteriskjava.fastagi.DefaultAgiServer.createServerSocket(DefaultAgiServer.java:300) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 	at org.asteriskjava.fastagi.DefaultAgiServer.startup(DefaultAgiServer.java:307) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 	at uk.co.planetbeyond.service.main.Main.main(Main.java:40) ~[socialive_ivr_test_engine.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 	at org.tanukisoftware.wrapper.WrapperStartStopApp.run(WrapperStartStopApp.java:429) [wrapper.jar:3.5.42]
+INFO   | jvm 1    | 2020/03/09 15:25:38 | 	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_91]
+STATUS | wrapper  | 2020/03/09 15:29:43 | JVM received a signal SIGKILL (9).
+STATUS | wrapper  | 2020/03/09 15:29:43 | JVM process is gone.
+ERROR  | wrapper  | 2020/03/09 15:29:43 | JVM exited unexpectedly.
+STATUS | wrapper  | 2020/03/09 15:29:49 | JVM process is gone.
+STATUS | wrapper  | 2020/03/09 15:29:49 | Launching a JVM...
+INFO   | jvm 2    | 2020/03/09 15:29:49 | WrapperManager: Initializing...
+INFO   | jvm 2    | 2020/03/09 15:29:49 | 15:29:49,339 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+INFO   | jvm 2    | 2020/03/09 15:29:49 | 15:29:49,339 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+INFO   | jvm 2    | 2020/03/09 15:29:49 | 15:29:49,340 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/samiullah/workspace/socialive_ivr_engine/jar/logback.xml]
+INFO   | jvm 2    | 2020/03/09 15:29:49 | 15:29:49,442 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+INFO   | jvm 2    | 2020/03/09 15:29:49 | 15:29:49,446 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+INFO   | jvm 2    | 2020/03/09 15:29:49 | 15:29:49,490 |-INFO in ch.qos.logback.core.rolling.FixedWindowRollingPolicy@880ec60 - Will use zip compression
+INFO   | jvm 2    | 2020/03/09 15:29:49 | 15:29:49,500 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+INFO   | jvm 2    | 2020/03/09 15:29:49 | 15:29:49,524 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: /home/planetbeyond/temp/socialive_ivr_engine.log
+INFO   | jvm 2    | 2020/03/09 15:29:49 | 15:29:49,525 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [/home/planetbeyond/temp/socialive_ivr_engine.log]
+INFO   | jvm 2    | 2020/03/09 15:29:49 | 15:29:49,531 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+INFO   | jvm 2    | 2020/03/09 15:29:49 | 15:29:49,536 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [CONSOLE]
+INFO   | jvm 2    | 2020/03/09 15:29:49 | 15:29:49,540 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+INFO   | jvm 2    | 2020/03/09 15:29:49 | 15:29:49,543 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+INFO   | jvm 2    | 2020/03/09 15:29:49 | 15:29:49,543 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+INFO   | jvm 2    | 2020/03/09 15:29:49 | 15:29:49,544 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [CONSOLE] to Logger[ROOT]
+INFO   | jvm 2    | 2020/03/09 15:29:49 | 15:29:49,544 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+INFO   | jvm 2    | 2020/03/09 15:29:49 | 15:29:49,545 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@61a485d2 - Registering current configuration as safe fallback point
+INFO   | jvm 2    | 2020/03/09 15:29:49 | 2020-03-09 15:29:49,631 INFO [WrapperStartStopAppMain] EmailServer [EmailServer.java:84] Email sending thread has been started. Make sure that stopEmailServerThread() is called whenever the thread needs to be stopped.
+INFO   | jvm 2    | 2020/03/09 15:29:49 | 2020-03-09 15:29:49,660 DEBUG [WrapperStartStopAppMain] DefaultAgiServer [AbstractAgiServer.java:81] Using channelFactory org.asteriskjava.fastagi.internal.DefaultAgiChannelFactory
+INFO   | jvm 2    | 2020/03/09 15:29:49 | 2020-03-09 15:29:49,665 INFO [WrapperStartStopAppMain] DefaultAgiServer [DefaultAgiServer.java:315] Listening on *:7374.
+STATUS | wrapper  | 2020/03/09 15:30:03 | JVM received a signal SIGKILL (9).
+STATUS | wrapper  | 2020/03/09 15:30:03 | JVM process is gone.
+ERROR  | wrapper  | 2020/03/09 15:30:03 | JVM exited unexpectedly.
+STATUS | wrapper  | 2020/03/09 15:30:09 | JVM process is gone.
+STATUS | wrapper  | 2020/03/09 15:30:09 | Launching a JVM...
+INFO   | jvm 3    | 2020/03/09 15:30:09 | WrapperManager: Initializing...
+INFO   | jvm 3    | 2020/03/09 15:30:09 | 15:30:09,458 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+INFO   | jvm 3    | 2020/03/09 15:30:09 | 15:30:09,459 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+INFO   | jvm 3    | 2020/03/09 15:30:09 | 15:30:09,459 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/samiullah/workspace/socialive_ivr_engine/jar/logback.xml]
+INFO   | jvm 3    | 2020/03/09 15:30:09 | 15:30:09,559 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+INFO   | jvm 3    | 2020/03/09 15:30:09 | 15:30:09,564 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+INFO   | jvm 3    | 2020/03/09 15:30:09 | 15:30:09,630 |-INFO in ch.qos.logback.core.rolling.FixedWindowRollingPolicy@880ec60 - Will use zip compression
+INFO   | jvm 3    | 2020/03/09 15:30:09 | 15:30:09,641 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+INFO   | jvm 3    | 2020/03/09 15:30:09 | 15:30:09,681 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: /home/planetbeyond/temp/socialive_ivr_engine.log
+INFO   | jvm 3    | 2020/03/09 15:30:09 | 15:30:09,681 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [/home/planetbeyond/temp/socialive_ivr_engine.log]
+INFO   | jvm 3    | 2020/03/09 15:30:09 | 15:30:09,682 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+INFO   | jvm 3    | 2020/03/09 15:30:09 | 15:30:09,686 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [CONSOLE]
+INFO   | jvm 3    | 2020/03/09 15:30:09 | 15:30:09,696 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+INFO   | jvm 3    | 2020/03/09 15:30:09 | 15:30:09,697 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+INFO   | jvm 3    | 2020/03/09 15:30:09 | 15:30:09,697 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+INFO   | jvm 3    | 2020/03/09 15:30:09 | 15:30:09,698 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [CONSOLE] to Logger[ROOT]
+INFO   | jvm 3    | 2020/03/09 15:30:09 | 15:30:09,698 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+INFO   | jvm 3    | 2020/03/09 15:30:09 | 15:30:09,700 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@61a485d2 - Registering current configuration as safe fallback point
+INFO   | jvm 3    | 2020/03/09 15:30:09 | 2020-03-09 15:30:09,788 INFO [WrapperStartStopAppMain] EmailServer [EmailServer.java:84] Email sending thread has been started. Make sure that stopEmailServerThread() is called whenever the thread needs to be stopped.
+INFO   | jvm 3    | 2020/03/09 15:30:09 | 2020-03-09 15:30:09,794 DEBUG [WrapperStartStopAppMain] DefaultAgiServer [AbstractAgiServer.java:81] Using channelFactory org.asteriskjava.fastagi.internal.DefaultAgiChannelFactory
+INFO   | jvm 3    | 2020/03/09 15:30:09 | 2020-03-09 15:30:09,799 INFO [WrapperStartStopAppMain] DefaultAgiServer [DefaultAgiServer.java:315] Listening on *:7374.
+INFO   | jvm 3    | 2020/03/09 15:30:50 | 2020-03-09 15:30:50,055 DEBUG [WrapperStartStopAppMain] DefaultAgiServer [DefaultAgiServer.java:340] Received connection from /192.168.7.96
+INFO   | jvm 3    | 2020/03/09 15:30:50 | 2020-03-09 15:30:50,058 INFO [WrapperStartStopAppMain] DefaultAgiServer [AbstractAgiServer.java:244] Thread pool started.
+INFO   | jvm 3    | 2020/03/09 15:30:50 | 2020-03-09 15:30:50,066 INFO [AJ DaemonPool-1.1] ResourceBundleMappingStrategy [ResourceBundleMappingStrategy.java:183] Added mapping for 'hello2.agi' to class uk.co.planetbeyond.service.inbound.HelloAgiScript2
+INFO   | jvm 3    | 2020/03/09 15:30:50 | 2020-03-09 15:30:50,070 INFO [AJ DaemonPool-1.1] ResourceBundleMappingStrategy [ResourceBundleMappingStrategy.java:183] Added mapping for 'hello.agi' to class uk.co.planetbeyond.service.inbound.HelloAgiScript
+INFO   | jvm 3    | 2020/03/09 15:30:50 | 2020-03-09 15:30:50,071 INFO [AJ DaemonPool-1.1] ResourceBundleMappingStrategy [ResourceBundleMappingStrategy.java:183] Added mapping for 'save_user_call_duration.agi' to class uk.co.planetbeyond.service.activity.UserActivityHandler
+INFO   | jvm 3    | 2020/03/09 15:30:50 | 2020-03-09 15:30:50,073 INFO [AJ DaemonPool-1.1] ResourceBundleMappingStrategy [ResourceBundleMappingStrategy.java:183] Added mapping for 'ivrs-play.agi' to class uk.co.planetbeyond.service.inbound.IvrFiles
+INFO   | jvm 3    | 2020/03/09 15:30:50 | 2020-03-09 15:30:50,074 INFO [AJ DaemonPool-1.1] ResourceBundleMappingStrategy [ResourceBundleMappingStrategy.java:183] Added mapping for 'socialive.agi' to class uk.co.planetbeyond.service.inbound.SocialiveServiceHandler
+INFO   | jvm 3    | 2020/03/09 15:30:50 | 2020-03-09 15:30:50,074 DEBUG [AJ DaemonPool-1.1] FastAgiConnectionHandler [AgiConnectionHandler.java:175] Begin AgiScript uk.co.planetbeyond.service.inbound.SocialiveServiceHandler on AJ DaemonPool-1.1
+INFO   | jvm 3    | 2020/03/09 15:30:50 | 2020-03-09 15:30:50,217 DEBUG [AJ DaemonPool-1.1] BoneCPDataSource [BoneCPDataSource.java:148] JDBC URL = jdbc:mysql://localhost:3306/socialive_ivr?autoReconnect=true&autoReconnectForPools=true&useUnicode=true&characterEncoding=utf8, Username = root, partitions = 2, max (per partition) = 4, min (per partition) = 1, helper threads = 3, idle max age = 60 min, idle test period = 30 min
+INFO   | jvm 3    | 2020/03/09 15:30:55 | 2020-03-09 15:30:55,902 ERROR [AJ DaemonPool-1.1] FastAgiConnectionHandler [AgiConnectionHandler.java:183] AgiException running AgiScript uk.co.planetbeyond.service.inbound.SocialiveServiceHandler on AJ DaemonPool-1.1
+INFO   | jvm 3    | 2020/03/09 15:30:55 | org.asteriskjava.fastagi.AgiHangupException: Channel was hung up.
+INFO   | jvm 3    | 2020/03/09 15:30:55 | 	at org.asteriskjava.fastagi.internal.AgiChannelImpl.sendCommand(AgiChannelImpl.java:125) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 3    | 2020/03/09 15:30:55 | 	at org.asteriskjava.fastagi.internal.AgiChannelImpl.getData(AgiChannelImpl.java:190) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 3    | 2020/03/09 15:30:55 | 	at org.asteriskjava.fastagi.AgiOperations.getData(AgiOperations.java:154) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 3    | 2020/03/09 15:30:55 | 	at uk.co.planetbeyond.service.inbound.SocialiveServiceHandler.playPromptAndGetDTMF(SocialiveServiceHandler.java:90) ~[socialive_ivr_test_engine.jar:na]
+INFO   | jvm 3    | 2020/03/09 15:30:55 | 	at uk.co.planetbeyond.service.inbound.SocialiveServiceHandler.playMainMenuAndHandleResponse(SocialiveServiceHandler.java:177) ~[socialive_ivr_test_engine.jar:na]
+INFO   | jvm 3    | 2020/03/09 15:30:55 | 	at uk.co.planetbeyond.service.inbound.SocialiveServiceHandler.service(SocialiveServiceHandler.java:39) ~[socialive_ivr_test_engine.jar:na]
+INFO   | jvm 3    | 2020/03/09 15:30:55 | 	at org.asteriskjava.fastagi.internal.AgiConnectionHandler.runScript(AgiConnectionHandler.java:178) [asterisk-java-2.0.2.jar:na]
+INFO   | jvm 3    | 2020/03/09 15:30:55 | 	at org.asteriskjava.fastagi.internal.AgiConnectionHandler.run(AgiConnectionHandler.java:149) [asterisk-java-2.0.2.jar:na]
+INFO   | jvm 3    | 2020/03/09 15:30:55 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_91]
+INFO   | jvm 3    | 2020/03/09 15:30:55 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_91]
+INFO   | jvm 3    | 2020/03/09 15:30:55 | 	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_91]
+INFO   | jvm 3    | 2020/03/09 15:30:55 | 2020-03-09 15:30:55,904 DEBUG [AJ DaemonPool-1.1] FastAgiConnectionHandler [AgiConnectionHandler.java:191] End AgiScript uk.co.planetbeyond.service.inbound.SocialiveServiceHandler on AJ DaemonPool-1.1
+STATUS | wrapper  | 2020/03/09 15:31:00 | INT trapped.  Shutting down.
+INFO   | jvm 3    | 2020/03/09 15:31:00 | 2020-03-09 15:31:00,402 INFO [WrapperListener_stop_runner] CustomResourceBundle [CustomResourceBundle.java:87] PROPERTIES_UPDATE_INTERVAL_IN_SECS not found in http_client.properties. Going to use a default refresh interval of 300secs.
+INFO   | jvm 3    | 2020/03/09 15:31:00 | 2020-03-09 15:31:00,404 ERROR [WrapperListener_stop_runner] Stopper [Stopper.java:27] java.lang.NullPointerException
+INFO   | jvm 3    | 2020/03/09 15:31:00 | java.lang.NullPointerException: null
+INFO   | jvm 3    | 2020/03/09 15:31:00 | 	at uk.co.planetbeyond.util.CustomResourceBundle.<init>(CustomResourceBundle.java:115) ~[util-api.jar:na]
+INFO   | jvm 3    | 2020/03/09 15:31:00 | 	at uk.co.planetbeyond.comm.constants.HttpClientConstants.<init>(HttpClientConstants.java:9) ~[communication-api.jar:na]
+INFO   | jvm 3    | 2020/03/09 15:31:00 | 	at uk.co.planetbeyond.comm.constants.HttpClientConstants.get(HttpClientConstants.java:18) ~[communication-api.jar:na]
+INFO   | jvm 3    | 2020/03/09 15:31:00 | 	at uk.co.planetbeyond.comm.httpclient.DefaultHttpClient.<init>(DefaultHttpClient.java:22) ~[communication-api.jar:na]
+INFO   | jvm 3    | 2020/03/09 15:31:00 | 	at uk.co.planetbeyond.comm.httpclient.DefaultHttpClient.getSingletonInstance(DefaultHttpClient.java:34) ~[communication-api.jar:na]
+INFO   | jvm 3    | 2020/03/09 15:31:00 | 	at uk.co.planetbeyond.comm.httpclient.DefaultHttpClient.getInstance(DefaultHttpClient.java:47) ~[communication-api.jar:na]
+INFO   | jvm 3    | 2020/03/09 15:31:00 | 	at uk.co.planetbeyond.comm.main.Stopper.stop(Stopper.java:18) ~[communication-api.jar:na]
+INFO   | jvm 3    | 2020/03/09 15:31:00 | 	at uk.co.planetbeyond.kannel.main.Stopper.stop(Stopper.java:12) ~[kannel-api.jar:na]
+INFO   | jvm 3    | 2020/03/09 15:31:00 | 	at uk.co.planetbeyond.service.main.Stopper.stop(Stopper.java:21) [socialive_ivr_test_engine.jar:na]
+INFO   | jvm 3    | 2020/03/09 15:31:00 | 	at uk.co.planetbeyond.service.main.Stopper.main(Stopper.java:14) [socialive_ivr_test_engine.jar:na]
+INFO   | jvm 3    | 2020/03/09 15:31:00 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 3    | 2020/03/09 15:31:00 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+INFO   | jvm 3    | 2020/03/09 15:31:00 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+INFO   | jvm 3    | 2020/03/09 15:31:00 | 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+INFO   | jvm 3    | 2020/03/09 15:31:00 | 	at org.tanukisoftware.wrapper.WrapperStartStopApp.stop(WrapperStartStopApp.java:665) [wrapper.jar:3.5.42]
+INFO   | jvm 3    | 2020/03/09 15:31:00 | 	at org.tanukisoftware.wrapper.WrapperManager$12.run(WrapperManager.java:4839) [wrapper.jar:3.5.42]
+STATUS | wrapper  | 2020/03/09 15:31:04 | INT trapped.  Forcing immediate shutdown.
+ERROR  | wrapper  | 2020/03/09 15:31:05 | JVM did not exit on request, termination requested.
+STATUS | wrapper  | 2020/03/09 15:31:05 | JVM received a signal SIGKILL (9).
+STATUS | wrapper  | 2020/03/09 15:31:05 | JVM process is gone.
+STATUS | wrapper  | 2020/03/09 15:31:05 | JVM exited after being requested to terminate.
+STATUS | wrapper  | 2020/03/09 15:31:05 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/03/09 15:31:20 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/03/09 15:31:20 | Java Service Wrapper Community Edition 64-bit 3.5.42
+STATUS | wrapper  | 2020/03/09 15:31:20 |   Copyright (C) 1999-2020 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2020/03/09 15:31:20 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2020/03/09 15:31:20 | 
+STATUS | wrapper  | 2020/03/09 15:31:20 | Launching a JVM...
+INFO   | jvm 1    | 2020/03/09 15:31:20 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2020/03/09 15:31:21 | 15:31:20,983 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+INFO   | jvm 1    | 2020/03/09 15:31:21 | 15:31:20,984 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+INFO   | jvm 1    | 2020/03/09 15:31:21 | 15:31:20,984 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/samiullah/workspace/socialive_ivr_engine/jar/logback.xml]
+INFO   | jvm 1    | 2020/03/09 15:31:21 | 15:31:21,085 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+INFO   | jvm 1    | 2020/03/09 15:31:21 | 15:31:21,090 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+INFO   | jvm 1    | 2020/03/09 15:31:21 | 15:31:21,135 |-INFO in ch.qos.logback.core.rolling.FixedWindowRollingPolicy@880ec60 - Will use zip compression
+INFO   | jvm 1    | 2020/03/09 15:31:21 | 15:31:21,146 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+INFO   | jvm 1    | 2020/03/09 15:31:21 | 15:31:21,168 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: /home/planetbeyond/temp/socialive_ivr_engine.log
+INFO   | jvm 1    | 2020/03/09 15:31:21 | 15:31:21,168 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [/home/planetbeyond/temp/socialive_ivr_engine.log]
+INFO   | jvm 1    | 2020/03/09 15:31:21 | 15:31:21,169 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+INFO   | jvm 1    | 2020/03/09 15:31:21 | 15:31:21,171 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [CONSOLE]
+INFO   | jvm 1    | 2020/03/09 15:31:21 | 15:31:21,173 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+INFO   | jvm 1    | 2020/03/09 15:31:21 | 15:31:21,174 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+INFO   | jvm 1    | 2020/03/09 15:31:21 | 15:31:21,174 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+INFO   | jvm 1    | 2020/03/09 15:31:21 | 15:31:21,175 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [CONSOLE] to Logger[ROOT]
+INFO   | jvm 1    | 2020/03/09 15:31:21 | 15:31:21,175 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+INFO   | jvm 1    | 2020/03/09 15:31:21 | 15:31:21,176 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@61a485d2 - Registering current configuration as safe fallback point
+INFO   | jvm 1    | 2020/03/09 15:31:21 | 2020-03-09 15:31:21,289 INFO [WrapperStartStopAppMain] EmailServer [EmailServer.java:84] Email sending thread has been started. Make sure that stopEmailServerThread() is called whenever the thread needs to be stopped.
+INFO   | jvm 1    | 2020/03/09 15:31:21 | 2020-03-09 15:31:21,298 DEBUG [WrapperStartStopAppMain] DefaultAgiServer [AbstractAgiServer.java:81] Using channelFactory org.asteriskjava.fastagi.internal.DefaultAgiChannelFactory
+INFO   | jvm 1    | 2020/03/09 15:31:21 | 2020-03-09 15:31:21,307 INFO [WrapperStartStopAppMain] DefaultAgiServer [DefaultAgiServer.java:315] Listening on *:7374.
+INFO   | jvm 1    | 2020/03/09 15:31:34 | 2020-03-09 15:31:34,521 DEBUG [WrapperStartStopAppMain] DefaultAgiServer [DefaultAgiServer.java:340] Received connection from /192.168.7.96
+INFO   | jvm 1    | 2020/03/09 15:31:34 | 2020-03-09 15:31:34,524 INFO [WrapperStartStopAppMain] DefaultAgiServer [AbstractAgiServer.java:244] Thread pool started.
+INFO   | jvm 1    | 2020/03/09 15:31:34 | 2020-03-09 15:31:34,539 INFO [AJ DaemonPool-1.1] ResourceBundleMappingStrategy [ResourceBundleMappingStrategy.java:183] Added mapping for 'hello2.agi' to class uk.co.planetbeyond.service.inbound.HelloAgiScript2
+INFO   | jvm 1    | 2020/03/09 15:31:34 | 2020-03-09 15:31:34,547 INFO [AJ DaemonPool-1.1] ResourceBundleMappingStrategy [ResourceBundleMappingStrategy.java:183] Added mapping for 'hello.agi' to class uk.co.planetbeyond.service.inbound.HelloAgiScript
+INFO   | jvm 1    | 2020/03/09 15:31:34 | 2020-03-09 15:31:34,553 INFO [AJ DaemonPool-1.1] ResourceBundleMappingStrategy [ResourceBundleMappingStrategy.java:183] Added mapping for 'save_user_call_duration.agi' to class uk.co.planetbeyond.service.activity.UserActivityHandler
+INFO   | jvm 1    | 2020/03/09 15:31:34 | 2020-03-09 15:31:34,554 INFO [AJ DaemonPool-1.1] ResourceBundleMappingStrategy [ResourceBundleMappingStrategy.java:183] Added mapping for 'ivrs-play.agi' to class uk.co.planetbeyond.service.inbound.IvrFiles
+INFO   | jvm 1    | 2020/03/09 15:31:34 | 2020-03-09 15:31:34,555 INFO [AJ DaemonPool-1.1] ResourceBundleMappingStrategy [ResourceBundleMappingStrategy.java:183] Added mapping for 'socialive.agi' to class uk.co.planetbeyond.service.inbound.SocialiveServiceHandler
+INFO   | jvm 1    | 2020/03/09 15:31:34 | 2020-03-09 15:31:34,555 DEBUG [AJ DaemonPool-1.1] FastAgiConnectionHandler [AgiConnectionHandler.java:175] Begin AgiScript uk.co.planetbeyond.service.inbound.SocialiveServiceHandler on AJ DaemonPool-1.1
+INFO   | jvm 1    | 2020/03/09 15:31:34 | 2020-03-09 15:31:34,691 DEBUG [AJ DaemonPool-1.1] BoneCPDataSource [BoneCPDataSource.java:148] JDBC URL = jdbc:mysql://localhost:3306/socialive_ivr?autoReconnect=true&autoReconnectForPools=true&useUnicode=true&characterEncoding=utf8, Username = root, partitions = 2, max (per partition) = 4, min (per partition) = 1, helper threads = 3, idle max age = 60 min, idle test period = 30 min
+INFO   | jvm 1    | 2020/03/09 15:32:45 | 2020-03-09 15:32:45,869 DEBUG [AJ DaemonPool-1.1] FastAgiConnectionHandler [AgiConnectionHandler.java:191] End AgiScript uk.co.planetbeyond.service.inbound.SocialiveServiceHandler on AJ DaemonPool-1.1
+INFO   | jvm 1    | 2020/03/09 15:32:54 | 2020-03-09 15:32:54,005 DEBUG [WrapperStartStopAppMain] DefaultAgiServer [DefaultAgiServer.java:340] Received connection from /192.168.7.96
+INFO   | jvm 1    | 2020/03/09 15:32:54 | 2020-03-09 15:32:54,007 DEBUG [AJ DaemonPool-1.2] FastAgiConnectionHandler [AgiConnectionHandler.java:175] Begin AgiScript uk.co.planetbeyond.service.inbound.SocialiveServiceHandler on AJ DaemonPool-1.2
+INFO   | jvm 1    | 2020/03/09 15:33:00 | 2020-03-09 15:33:00,548 ERROR [AJ DaemonPool-1.2] FastAgiConnectionHandler [AgiConnectionHandler.java:183] AgiException running AgiScript uk.co.planetbeyond.service.inbound.SocialiveServiceHandler on AJ DaemonPool-1.2
+INFO   | jvm 1    | 2020/03/09 15:33:00 | org.asteriskjava.fastagi.AgiHangupException: Channel was hung up.
+INFO   | jvm 1    | 2020/03/09 15:33:00 | 	at org.asteriskjava.fastagi.internal.AgiChannelImpl.sendCommand(AgiChannelImpl.java:125) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:33:00 | 	at org.asteriskjava.fastagi.internal.AgiChannelImpl.getData(AgiChannelImpl.java:190) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:33:00 | 	at org.asteriskjava.fastagi.AgiOperations.getData(AgiOperations.java:154) ~[asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:33:00 | 	at uk.co.planetbeyond.service.inbound.SocialiveServiceHandler.playPromptAndGetDTMF(SocialiveServiceHandler.java:90) ~[socialive_ivr_test_engine.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:33:00 | 	at uk.co.planetbeyond.service.inbound.SocialiveServiceHandler.playMainMenuAndHandleResponse(SocialiveServiceHandler.java:177) ~[socialive_ivr_test_engine.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:33:00 | 	at uk.co.planetbeyond.service.inbound.SocialiveServiceHandler.service(SocialiveServiceHandler.java:39) ~[socialive_ivr_test_engine.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:33:00 | 	at org.asteriskjava.fastagi.internal.AgiConnectionHandler.runScript(AgiConnectionHandler.java:178) [asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:33:00 | 	at org.asteriskjava.fastagi.internal.AgiConnectionHandler.run(AgiConnectionHandler.java:149) [asterisk-java-2.0.2.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:33:00 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:33:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:33:00 | 	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:33:00 | 2020-03-09 15:33:00,549 DEBUG [AJ DaemonPool-1.2] FastAgiConnectionHandler [AgiConnectionHandler.java:191] End AgiScript uk.co.planetbeyond.service.inbound.SocialiveServiceHandler on AJ DaemonPool-1.2
+STATUS | wrapper  | 2020/03/09 15:33:28 | INT trapped.  Shutting down.
+INFO   | jvm 1    | 2020/03/09 15:33:28 | 2020-03-09 15:33:28,085 INFO [WrapperListener_stop_runner] CustomResourceBundle [CustomResourceBundle.java:87] PROPERTIES_UPDATE_INTERVAL_IN_SECS not found in http_client.properties. Going to use a default refresh interval of 300secs.
+INFO   | jvm 1    | 2020/03/09 15:33:28 | 2020-03-09 15:33:28,087 ERROR [WrapperListener_stop_runner] Stopper [Stopper.java:27] java.lang.NullPointerException
+INFO   | jvm 1    | 2020/03/09 15:33:28 | java.lang.NullPointerException: null
+INFO   | jvm 1    | 2020/03/09 15:33:28 | 	at uk.co.planetbeyond.util.CustomResourceBundle.<init>(CustomResourceBundle.java:115) ~[util-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:33:28 | 	at uk.co.planetbeyond.comm.constants.HttpClientConstants.<init>(HttpClientConstants.java:9) ~[communication-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:33:28 | 	at uk.co.planetbeyond.comm.constants.HttpClientConstants.get(HttpClientConstants.java:18) ~[communication-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:33:28 | 	at uk.co.planetbeyond.comm.httpclient.DefaultHttpClient.<init>(DefaultHttpClient.java:22) ~[communication-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:33:28 | 	at uk.co.planetbeyond.comm.httpclient.DefaultHttpClient.getSingletonInstance(DefaultHttpClient.java:34) ~[communication-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:33:28 | 	at uk.co.planetbeyond.comm.httpclient.DefaultHttpClient.getInstance(DefaultHttpClient.java:47) ~[communication-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:33:28 | 	at uk.co.planetbeyond.comm.main.Stopper.stop(Stopper.java:18) ~[communication-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:33:28 | 	at uk.co.planetbeyond.kannel.main.Stopper.stop(Stopper.java:12) ~[kannel-api.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:33:28 | 	at uk.co.planetbeyond.service.main.Stopper.stop(Stopper.java:21) [socialive_ivr_test_engine.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:33:28 | 	at uk.co.planetbeyond.service.main.Stopper.main(Stopper.java:14) [socialive_ivr_test_engine.jar:na]
+INFO   | jvm 1    | 2020/03/09 15:33:28 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:33:28 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:33:28 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:33:28 | 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+INFO   | jvm 1    | 2020/03/09 15:33:28 | 	at org.tanukisoftware.wrapper.WrapperStartStopApp.stop(WrapperStartStopApp.java:665) [wrapper.jar:3.5.42]
+INFO   | jvm 1    | 2020/03/09 15:33:28 | 	at org.tanukisoftware.wrapper.WrapperManager$12.run(WrapperManager.java:4839) [wrapper.jar:3.5.42]
+ERROR  | wrapper  | 2020/03/09 15:34:03 | Shutdown failed: Timed out waiting for signal from JVM.
+ERROR  | wrapper  | 2020/03/09 15:34:03 | JVM did not exit on request, termination requested.
+STATUS | wrapper  | 2020/03/09 15:34:03 | JVM received a signal SIGKILL (9).
+STATUS | wrapper  | 2020/03/09 15:34:03 | JVM process is gone.
+STATUS | wrapper  | 2020/03/09 15:34:03 | JVM exited after being requested to terminate.
+STATUS | wrapper  | 2020/03/09 15:34:03 | <-- Wrapper Stopped
