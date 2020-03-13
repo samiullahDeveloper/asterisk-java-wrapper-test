@@ -1,5 +1,5 @@
 --liquibase formatted sql
---changeset xameeramir:create-test-table
+--changeset sami:create-activity-table
 
 CREATE TABLE `activity` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -12,6 +12,7 @@ CREATE TABLE `activity` (
   `unique_id` varchar(120) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=100 DEFAULT CHARSET=latin1;
+
 
 --rollback DROP TABLE
 --rollback activity
