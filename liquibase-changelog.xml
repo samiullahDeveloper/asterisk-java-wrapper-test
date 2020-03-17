@@ -43,7 +43,7 @@ CREATE TABLE `cdr` (
 
 CREATE TABLE `content` (
   `content_id` int(11) NOT NULL AUTO_INCREMENT,
-  `content_category` tinyint(4) NOT NULL COMMENT '1-Entertainment\n2-Sports\n3-Health & Fitness\n4-Literature\n5.Science & Technology',
+  `content_category` tinyint(4) NOT NULL COMMENT '1-Entertainment\n2-Sports\n3-Health and Fitness\n4-Literature\n5.Science and Technology',
   `file_name` varchar(100) NOT NULL,
   `creation_timestamp` datetime NOT NULL,
   PRIMARY KEY (`content_id`)
