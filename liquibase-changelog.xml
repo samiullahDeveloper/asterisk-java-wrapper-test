@@ -9,7 +9,7 @@
             author="sami">
       <sql>
 
-         CREATE DATABASE socialive_ivr;
+         CREATE SCHEMA socialive_ivr;
 CREATE TABLE activity (
   id int(11) NOT NULL AUTO_INCREMENT,
   cellno varchar(12) DEFAULT NULL,
